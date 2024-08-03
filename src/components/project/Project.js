@@ -123,7 +123,7 @@ const Project = () => {
                 <div className="projects__content">
                     <div>
                         <i className="uil uil-edit projects__icon"></i>
-                        <h3 className="projects__title">MIS Web App</h3>
+                        <h3 className="projects__title">My Portfolio</h3>
                     </div>
                     <span onClick={() => toggleTab(2)} className="projects__button">
                         View details
@@ -134,25 +134,24 @@ const Project = () => {
                         <div className="projects__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
-                            <h3 className="projects__modal-title">MIS Web App</h3>
-                            <p className="projects__modal-description">Evaluate your IELTS writing.</p>
+                            <h3 className="projects__modal-title">My Portfolio</h3>
+                            <p className="projects__modal-description">Introduce Myself to You.</p>
 
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">This project is designed to evaluate students’
-                                        writing.</p>
-                                </li>
-
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">provide feedback with OpenAI GPT API</p>
+                                    <p className="projects__modal-info">This website develop to introduce myself.</p>
                                 </li>
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">The frontend of this project
-                                        use React. The backend part use Django.</p>
+                                        use React.</p>
+                                </li>
+
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <p className="projects__modal-info">Version control with Git.</p>
                                 </li>
 
                                 <li className="projects__modal-project">
