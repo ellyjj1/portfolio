@@ -4,9 +4,9 @@ import './project.css';
 const Project = () => {
 
     const [toggleState, setToggleState] = useState(0);
-    
+
     const toggleTab = (index) => {
-      setToggleState(index);
+        setToggleState(index);
     }
 
     return (
@@ -27,7 +27,7 @@ const Project = () => {
 
                     <div className={toggleState === 1 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
-                            <i onClick={() => toggleTab(0)}  className="uil uil-times projects__modal-close"></i>
+                            <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
                             <h3 className="projects__modal-title">Writing Evaluator</h3>
                             <p className="projects__modal-description">Evaluate your IELTS writing.</p>
@@ -71,7 +71,7 @@ const Project = () => {
                         <i className="uil uil-arrow projects__icon"></i>
                         <h3 className="projects__title">MIS Web App</h3>
                     </div>
-                    <span onClick={() => toggleTab(3)} className="projects__button" >
+                    <span onClick={() => toggleTab(3)} className="projects__button">
                         View details
                         <i className="uil uil-arrow-right projects__button-icon"></i>
                     </span>
@@ -86,7 +86,8 @@ const Project = () => {
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">This project was developed in the CI/CD course </p>
+                                    <p className="projects__modal-info">This project was developed in the CI/CD
+                                        course </p>
                                 </li>
 
                                 <li className="projects__modal-project">
@@ -96,7 +97,9 @@ const Project = () => {
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">The application includes modules for managing programs, lecturer information, student information, student marks, and student attendance.</p>
+                                    <p className="projects__modal-info">The application includes modules for managing
+                                        programs, lecturer information, student information, student marks, and student
+                                        attendance.</p>
                                 </li>
 
                                 <li className="projects__modal-project">
@@ -107,7 +110,7 @@ const Project = () => {
                                            rel="noopener noreferrer">
                                             Frontend
                                         </a>
-                                        <> and </>
+                                        <> and</>
                                         <a href="https://github.com/ellyjj1/message" target="_blank"
                                            rel="noopener noreferrer">
                                             Backend
@@ -130,7 +133,7 @@ const Project = () => {
                         <i className="uil uil-arrow-right projects__button-icon"></i>
                     </span>
 
-                    <div className={toggleState === 2 ? "projects__modal active-modal" : "projects__modal" }>
+                    <div className={toggleState === 2 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
@@ -146,17 +149,29 @@ const Project = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">The frontend of this project
-                                        use React.</p>
+                                        use React. Using EmailJS SDK to collect contact information.</p>
                                 </li>
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">Version control with Git.</p>
+                                    <p className="projects__modal-info">Version control with GitHub:<> </>
+
+                                        <a href="https://github.com/ellyjj1/portfolio" target="_blank"
+                                           rel="noopener noreferrer">
+                                           GitHub link
+                                        </a>
+                                    </p>
                                 </li>
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">Deployed at Vercel: https://ielts-evaluator-frontend.vercel.app </p>
+                                    <p className="projects__modal-info">
+                                        Deployed at Vercel:<> </>
+                                        <a href="portfolio-self-three-40.vercel.app" target="_blank"
+                                           rel="noopener noreferrer">
+                                            Portfolio
+                                        </a>
+                                    </p>
                                 </li>
                             </ul>
                         </div>
