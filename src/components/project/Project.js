@@ -39,8 +39,8 @@ const Project = () => {
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">The frontend of this project
-                                        use React. Using EmailJS SDK to collect contact information.</p>
+                                    <p className="projects__modal-info">This project base on React and adapt to various screen sizes through responsive design.
+                                         Using EmailJS SDK to collect contact information.</p>
                                 </li>
 
                                 <li className="projects__modal-project">
