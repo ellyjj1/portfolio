@@ -53,6 +53,13 @@
     line-height: 18px;
 }
 
+.skills__name__small {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+
+}
+
 .skills__level {
     font-size: var(--tiny-font-size);
 }

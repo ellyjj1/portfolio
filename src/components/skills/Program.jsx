@@ -12,8 +12,8 @@ const Program = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Problem Solving</h3>
-                        <span className="skills__level">Advanced</span>
+                        <h3 className="skills__name__small">Problem Solving</h3>
+                        <span className="skills__level"> </span>
                     </div>
                 </div>
 
@@ -21,8 +21,8 @@ const Program = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Time Management</h3>
-                        <span className="skills__level">Advanced</span>
+                        <h3 className="skills__name__small">Time Management</h3>
+                        <span className="skills__level"> </span>
                     </div>
                 </div>
 
@@ -31,8 +31,40 @@ const Program = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Budget Management</h3>
-                        <span className="skills__level">Advanced</span>
+                        <h3 className="skills__name__small">Budget Management</h3>
+                        <span className="skills__level"> </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="skills__group">
+
+                <div className="skills__data">
+                    <i className='bx bxs-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name__small">Enterprise Architecture</h3>
+                        <span className="skills__level"> </span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bxs-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name__small">Customer Service</h3>
+                        <span className="skills__level"> </span>
+                    </div>
+                </div>
+
+
+                <div className="skills__data">
+                    <i className='bx bxs-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name__small">Priority Management</h3>
+                        <span className="skills__level"> </span>
                     </div>
                 </div>
 
