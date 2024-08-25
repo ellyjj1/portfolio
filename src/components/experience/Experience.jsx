@@ -113,7 +113,7 @@ const Experience = () => {
                 <div className="experience__content">
                     <div className='experience__header'>
                         <i className="uil uil-code-branch experience__icon"></i>
-                        <h3 className="experience__title">Developer</h3>
+                        <h3 className="experience__title">Full Stack Developer</h3>
                     </div>
                         <div className="experience__modal-content">
                             <p className="experience__modal-time">CHINA RESOFT COMPUTER SYSTEM ENGINEERING, July 2005-May 2007</p>

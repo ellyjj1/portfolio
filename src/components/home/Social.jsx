@@ -13,21 +13,21 @@ const Social = () => {
         </a>
 
         <a 
-            href="https://ielts-evaluator-frontend.vercel.app/" 
+            href="https://www.linkedin.com/in/jingjing-yu-514620301/"
             className="home__social-icon" 
             target='_blank'
             rel="noopener noreferrer">
-            <i class="uil uil-edit"></i>
+            <i class="uil uil-linkedin"></i>
         </a>
 
 
-        <a 
-            href="https://message-frontend-real.vercel.app/" 
-            className="home__social-icon" 
-            target='_blank'
-            rel="noopener noreferrer">
-            <i class="uil uil-monitor"></i>
-        </a>
+        {/*<a */}
+        {/*    href="https://ielts-evaluator-frontend.vercel.app/" */}
+        {/*    className="home__social-icon" */}
+        {/*    target='_blank'*/}
+        {/*    rel="noopener noreferrer">*/}
+        {/*    <i class="uil uil-monitor"></i>*/}
+        {/*</a>*/}
 
     </div>
   )
