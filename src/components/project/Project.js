@@ -131,7 +131,7 @@ const Project = () => {
         </div>
         <div className="projects__content">
           <div>
-            <i className="uil uil-web-grid projects__icon"></i>
+            <i className="uil uil-usd-circle projects__icon"></i>
             <h3 className="projects__title">Expense Tracker</h3>
           </div>
 
@@ -188,7 +188,7 @@ const Project = () => {
 
           </div>
         </div>
-        {/* <div className="projects__content">
+        <div className="projects__content">
           <div>
             <i className="uil uil-web-grid projects__icon"></i>
             <h3 className="projects__title">Writing Evaluator</h3>
@@ -238,7 +238,61 @@ const Project = () => {
             </div>
 
           </div>
-        </div> */}
+        </div>
+
+        <div className="projects__content under__construction">
+          <div>
+            <i className="uil uil-jackhammer projects__icon"></i>
+            <h3 className="projects__title">Under</h3>
+            <h3 className="projects__title">Construction...</h3>
+
+          </div>
+
+          {/* <span className="projects__button" onClick={() => toggleTab(1)}>
+                        View details
+                        <i className="uil uil-arrow-right projects__button-icon"></i>
+                    </span>
+
+          <div className={toggleState === 1 ? 'projects__modal active-modal' : 'projects__modal'}>
+            <div className="projects__modal-content">
+              <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+
+              <h3 className="projects__modal-title">Writing Evaluator</h3>
+              <p className="projects__modal-description">Evaluate your IELTS writing.</p>
+
+              <ul className="projects__modal-projects grid">
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">This project is designed to evaluate students’
+                    writing.</p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">provide feedback with OpenAI GPT API</p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">The frontend of this project
+                    use React. The backend part use Django. </p>
+                </li>
+
+                <li className="projects__modal-project">
+                  <i className="uil uil-check-circle projects__modal-icon"></i>
+                  <p className="projects__modal-info">
+                    Deployed at Vercel:
+                    <a href="https://ielts-evaluator-frontend.vercel.app" target="_blank"
+                       rel="noopener noreferrer">
+                      https://ielts-evaluator-frontend.vercel.app
+                    </a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+          </div> */}
+        </div>
 
       </div>
     </section>
