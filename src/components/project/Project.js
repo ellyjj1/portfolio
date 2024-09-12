@@ -135,12 +135,12 @@ const Project = () => {
             <h3 className="projects__title">Expense Tracker</h3>
           </div>
 
-          <span className="projects__button" onClick={() => toggleTab(1)}>
+          <span className="projects__button" onClick={() => toggleTab(4)}>
                         View details
                         <i className="uil uil-arrow-right projects__button-icon"></i>
                     </span>
 
-          <div className={toggleState === 1 ? 'projects__modal active-modal' : 'projects__modal'}>
+          <div className={toggleState === 4 ? 'projects__modal active-modal' : 'projects__modal'}>
             <div className="projects__modal-content">
               <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
