@@ -1,0 +1,72 @@
+import React, {useState} from 'react'
+
+const MyPortfolio = () => {
+    const [toggleState, setToggleState] = useState(0)
+
+    const toggleTab = (index) => {
+        setToggleState(index)
+    }
+    return (
+        <div>
+            <div className="projects__content">
+                <div>
+                    <i className="uil uil-edit projects__icon"></i>
+                    <h3 className="projects__title">My Portfolio</h3>
+                </div>
+                <span onClick={() => toggleTab(2)} className="projects__button">
+                        View details
+                        <i className="uil uil-arrow-right projects__button-icon"></i>
+                    </span>
+
+                <div className={toggleState === 2 ? 'projects__modal active-modal' : 'projects__modal'}>
+                    <div className="projects__modal-content">
+                        <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+
+                        <h3 className="projects__modal-title">My Portfolio</h3>
+                        <p className="projects__modal-description">Introduce Myself to You.</p>
+
+                        <ul className="projects__modal-projects grid">
+                            <li className="projects__modal-project">
+                                <i className="uil uil-check-circle projects__modal-icon"></i>
+                                <p className="projects__modal-info">This website develop to introduce myself.</p>
+                            </li>
+
+                            <li className="projects__modal-project">
+                                <i className="uil uil-check-circle projects__modal-icon"></i>
+                                <p className="projects__modal-info">This project base on React and adapt to various
+                                    screen sizes
+                                    through responsive design.
+                                    Using EmailJS SDK to collect contact information.</p>
+                            </li>
+
+                            <li className="projects__modal-project">
+                                <i className="uil uil-check-circle projects__modal-icon"></i>
+                                <p className="projects__modal-info">Version control with GitHub:<> </>
+
+                                    <a href="https://github.com/ellyjj1/portfolio" target="_blank"
+                                       rel="noopener noreferrer">
+                                        GitHub link
+                                    </a>
+                                </p>
+                            </li>
+
+                            <li className="projects__modal-project">
+                                <i className="uil uil-check-circle projects__modal-icon"></i>
+                                <p className="projects__modal-info">
+                                    Deployed at Vercel:<> </>
+                                    <a href="portfolio-self-three-40.vercel.app" target="_blank"
+                                       rel="noopener noreferrer">
+                                        Portfolio
+                                    </a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default MyPortfolio;

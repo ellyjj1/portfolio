@@ -21,7 +21,7 @@ const Consultant = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Active listening</h3>
+                        <h3 className="skills__name__small">Bidding</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Consultant = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Technical Support</h3>
+                        <h3 className="skills__name__small">Pre-sales Support</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const Consultant = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Direct Marketing</h3>
+                        <h3 className="skills__name__small">Marketing</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const Consultant = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Digital Marketing</h3>
+                        <h3 className="skills__name__small">Active listening</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>

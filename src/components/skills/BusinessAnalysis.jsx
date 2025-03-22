@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Backend = () => {
+const BusinessAnalysis = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend developer</h3>
+      <h3 className="skills__title">Business Analysis</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -12,7 +12,7 @@ const Backend = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Python</h3>
+                        <h3 className="skills__name__small">Requirement Gathering</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const Backend = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">Django</h3>
+                        <h3 className="skills__name__small">Process Improvement </h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -31,19 +31,20 @@ const Backend = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">OAuth2</h3>
+                        <h3 className="skills__name__small">Process Mapping</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
 
             </div>
+
             <div className="skills__group">
 
                 <div className="skills__data">
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">SQL</h3>
+                        <h3 className="skills__name__small">Data Analysis</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -52,7 +53,7 @@ const Backend = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">PostgreSQL</h3>
+                        <h3 className="skills__name__small">Stakeholder Analysis</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -62,16 +63,17 @@ const Backend = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">MySQL</h3>
+                        <h3 className="skills__name__small">Change Management</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
 
             </div>
+
         </div>
 
     </div>
   )
 }
 
-export default Backend
+export default BusinessAnalysis
