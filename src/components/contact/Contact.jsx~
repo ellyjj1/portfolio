@@ -55,6 +55,10 @@ const Contact = () => {
                         {/*</div>*/}
                     </div>
                 </div>
+                <div>
+                    <N8nChat/>
+
+                </div>
 
                 <div className="contact__content">
                     <h3 className="contact__title">Write me your demands</h3>
@@ -110,7 +114,6 @@ const Contact = () => {
 
                     </form>
                 </div>
-                <N8nChat/>
 
             </div>
         </section>
