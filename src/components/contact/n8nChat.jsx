@@ -5,7 +5,7 @@ import { createChat } from '@n8n/chat';
 export const N8nChat = () => {
 	useEffect(() => {
 		createChat({
-			webhookUrl: 'https://jingjing.app.n8n.cloud/webhook/e0f13c3c-2455-4a81-a2e3-de0c23df4215/chat'
+			webhookUrl: 'https://primary-production-e6ad.up.railway.app/webhook/5aa95500-d5b6-472f-912b-70ab3238f602/chat'
 		});
 	}, []);
 
