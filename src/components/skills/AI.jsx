@@ -1,9 +1,9 @@
 import React from 'react'
 
-const BusinessAnalysis = () => {
+const AIEngineer = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Business Analysis</h3>
+      <h3 className="skills__title">AI Engineer</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -12,7 +12,7 @@ const BusinessAnalysis = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Requirement Gathering</h3>
+                        <h3 className="skills__name">n8n</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const BusinessAnalysis = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Process Improvement </h3>
+                        <h3 className="skills__name">OpenAI</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -31,20 +31,19 @@ const BusinessAnalysis = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Process Mapping</h3>
+                        <h3 className="skills__name">AWS Bedrock</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
 
             </div>
-
             <div className="skills__group">
 
                 <div className="skills__data">
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Data Analysis</h3>
+                        <h3 className="skills__name">LangChain</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -53,7 +52,7 @@ const BusinessAnalysis = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Stakeholder Analysis</h3>
+                        <h3 className="skills__name">RAG</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -63,17 +62,16 @@ const BusinessAnalysis = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Change Management </h3>
+                        <h3 className="skills__name">Fine tune</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
 
             </div>
-
         </div>
 
     </div>
   )
 }
 
-export default BusinessAnalysis
+export default AIEngineer

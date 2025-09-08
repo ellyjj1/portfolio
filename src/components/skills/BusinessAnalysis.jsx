@@ -21,7 +21,7 @@ const BusinessAnalysis = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Process Improvement </h3>
+                        <h3 className="skills__name__small">Process Improvement</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>

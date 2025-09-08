@@ -1,12 +1,16 @@
 import React from 'react'
 import './project.css'
-import MyPortfolio from "./MyPortfolio";
-import FoodRecipe from "./FoodRecipe";
-import ExpenseTracker from "./ExpenseTracker";
-import WritingEvaluation from "./WritingEvaluation";
+// import MyPortfolio from "./2-MyPortfolio";
+// import FoodRecipe from "./3-FoodRecipe";
+// import ExpenseTracker from "./4-ExpenseTracker";
+// import WritingEvaluation from "./1-WritingEvaluation";
 // import UnderConstruction from "./UnderConstruction";
-import OpenMotor from "./OpenMotor";
-import LoveYourFeet from "./LoveYourFeet";
+import MotorDistribution from "./8-MotorDistribution";
+import LoveYourFeet from "./7-LoveYourFeet";
+import PayrollOptimise from "./5-PayrollOptimise";
+import AIBasedAutomation   from "./6-AIBasedAutomation"
+import FineTunedEvaluation  from "./9-FineTunedEvaluation"
+import AIAgentVirtualTeam   from "./1-AIAgentVirtualTeam"
 
 const Project = () => {
 
@@ -15,12 +19,18 @@ const Project = () => {
             <h2 className="section__title">Projects</h2>
             <span className="section__subtitle">Most recent programming work</span>
             <div className="projects__container container grid">
-                <OpenMotor/>
+                <AIBasedAutomation />
+                <FineTunedEvaluation />
+                <AIAgentVirtualTeam />
+
+                <MotorDistribution/>
+                <PayrollOptimise/>
                 <LoveYourFeet/>
-                <MyPortfolio/>
-                <FoodRecipe/>
-                <ExpenseTracker/>
-                <WritingEvaluation/>
+
+                {/* <MyPortfolio/> */}
+                {/* <FoodRecipe/> */}
+                {/* <ExpenseTracker/> */}
+                {/* <WritingEvaluation/> */}
                 {/*<UnderConstruction/>*/}
             </div>
         </section>

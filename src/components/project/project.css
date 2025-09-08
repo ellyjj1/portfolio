@@ -1,5 +1,7 @@
 .projects__container{
-    grid-template-columns: repeat(3, 270px);
+    /* grid-template-columns: repeat(3, 300px); */
+    grid-template-columns: repeat(3, 30%);
+
     justify-content: center;
     column-gap: 1.8rem;
 }
@@ -100,7 +102,7 @@
 
 .projects__modal-project{
     display: flex;
-    align-items: center;
+    align-items: top;
     column-gap: 0.5rem;
 }
 
@@ -111,6 +113,10 @@
 
 .projects__modal-info{
     font-size: var(--small-font-size);
+}
+.projects__modal-info_bold{
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
 }
 
 /*Active modal*/
@@ -163,9 +169,9 @@
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .projects__container{
-        grid-template-columns: max-content;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .projects__content{

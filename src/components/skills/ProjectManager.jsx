@@ -21,7 +21,7 @@ const ProjectManager = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Time Management</h3>
+                        <h3 className="skills__name__small">Bidding</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const ProjectManager = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Budget Management</h3>
+                        <h3 className="skills__name__small">Stakeholder Management</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const ProjectManager = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Stakeholder Management</h3>
+                        <h3 className="skills__name">Presentation</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const ProjectManager = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Customer Service</h3>
+                        <h3 className="skills__name">Priority Management</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const ProjectManager = () => {
                     <i className='bx bxs-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name__small">Priority Management</h3>
+                        <h3 className="skills__name">Time Management</h3>
                         <span className="skills__level"> </span>
                     </div>
                 </div>

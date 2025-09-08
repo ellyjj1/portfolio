@@ -3,9 +3,10 @@ import './skills.css'
 import Frontend from './Frontend'
 import Backend from './Backend'
 import ProjectManager from './ProjectManager'
-import Consultant from './Consultant'
+// import Consultant from './Consultant'
 import BusinessAnalysis from './BusinessAnalysis'
 import Tools from './Tools'
+import AIEngineer from './AI'
 
 
 const Skills = () => {
@@ -17,9 +18,11 @@ const Skills = () => {
             <div className="skills__container container grid">
                 <Frontend/>
                 <Backend/>
+                <AIEngineer />
                 <ProjectManager/>
                 <BusinessAnalysis/>
-                <Consultant/>
+                
+                {/* <Consultant/> */}
                 <Tools/>
             </div>
         </section>

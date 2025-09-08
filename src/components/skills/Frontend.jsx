@@ -26,7 +26,6 @@ const Frontend = () => {
                     </div>
                 </div>
 
-
                 <div className="skills__data">
                     <i className='bx bxs-badge-check'></i>
 
@@ -37,38 +36,35 @@ const Frontend = () => {
                 </div>
 
             </div>
-            <div className="skills__box">
-                <div className="skills__group">
+            <div className="skills__group">
 
-                    <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>
+                <div className="skills__data">
+                    <i className='bx bxs-badge-check'></i>
 
-                        <div>
-                            <h3 className="skills__name">HTML+CSS</h3>
-                            <span className="skills__level"> </span>
-                        </div>
+                    <div>
+                        <h3 className="skills__name">HTML+CSS</h3>
+                        <span className="skills__level"> </span>
                     </div>
-
-                    <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">Bootstrap</h3>
-                            <span className="skills__level"> </span>
-                        </div>
-                    </div>
-
-
-                    <div className="skills__data">
-                        <i className='bx bxs-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills__name">MUI</h3>
-                            <span className="skills__level"> </span>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div className="skills__data">
+                    <i className='bx bxs-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">Bootstrap</h3>
+                        <span className="skills__level"> </span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className='bx bxs-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">MUI</h3>
+                        <span className="skills__level"> </span>
+                    </div>
+                </div>
+
             </div>
         </div>
 

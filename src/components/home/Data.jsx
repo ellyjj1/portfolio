@@ -56,13 +56,12 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">Make Ideas Come True</h3>
         <p className="home__description">
-            Experienced Project Manager
+            Project Manager
             <br/>
-            Senior Consultant for Enterprise Clients
+            Consultant
             <br/>
-            Aspiring Developer
+            Automation First Mind-set Developer
             <br/>
-            Committed to Efficient, User-Centric Solutions
         </p>
         <a href="#contact" className="button button--flex">
             Say Hello 
