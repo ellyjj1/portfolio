@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
 import {N8nChat} from "./n8nChat";
@@ -6,18 +6,28 @@ import {N8nChat} from "./n8nChat";
 const Contact = () => {
 
     const form = useRef();
+    const [sendStatus, setSendStatus] = useState(null);
 
     const sendEmail = (e) => {
         e.preventDefault();
+        console.log(e)
 
         emailjs
             .sendForm(
-                'service_23xzaes',
+                'service_5itku5r',
                 'template_kra7m0i',
                 form.current, {
                     publicKey: 'Iamkw4neFpNgEor0h',
                 })
-        e.target.reset()
+            .then(() => {
+                setSendStatus('success');
+            })
+            .catch(() => {
+                setSendStatus('error');
+            })
+            .finally(() => {
+                e.target.reset()
+            })
     };
 
 
@@ -42,6 +52,14 @@ const Contact = () => {
                             </a>
                         </div>
 
+                        <div className="contact__card">
+                            <a href='https://primary-production-e6ad.up.railway.app/webhook/5aa95500-d5b6-472f-912b-70ab3238f602/chat' target="_blank" rel="noopener noreferrer">
+                            <i className='uil uil-comment contact__card-icon'></i>
+
+                            <h3 className="contact__card-title">AI Support</h3>
+                            </a>
+                        </div>
+
                         {/*<div className="contact__card">*/}
                         {/*    <i className='bx bxl-whatsapp contact__card-icon'></i>*/}
 
@@ -53,11 +71,14 @@ const Contact = () => {
                         {/*        <i className='bx bx-right-arrow-alt contact__button-icon'></i>*/}
                         {/*    </a>*/}
                         {/*</div>*/}
+
+                        
+
                     </div>
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your demands</h3>
+                    <h3 className="contact__title">Write me your Requirement</h3>
 
                     <form ref={form} onSubmit={sendEmail} action="" className="contact__form">
                         <div className="contact__form-div">
@@ -77,11 +98,11 @@ const Contact = () => {
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project or Demand</label>
+                            <label className="contact__form-tag">Project or Requests</label>
                             <textarea name="project"
                                       cols="30"
                                       rows="10"
-                                      placeholder="Write your projects and demands"
+                                      placeholder="Write your projects and Requests"
                                       className="contact__form-input">
 
                          </textarea>
@@ -107,6 +128,17 @@ const Contact = () => {
                                 ></path>
                             </svg>
                         </button>
+
+                        {sendStatus === 'success' && (
+                            <div className="contact__note contact__note__complete" role="status" aria-live="polite">
+                                Requests already sent to Jingjing.
+                            </div>
+                        )}
+                        {sendStatus === 'error' && (
+                            <div className="contact__note contact__note__error" role="status" aria-live="polite">
+                                Failed to send. Please try again later.
+                            </div>
+                        )}
 
                     </form>
                 </div>

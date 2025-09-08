@@ -39,6 +39,7 @@
 
 .contact__card-title{
     font-weight: var(--font-medium);
+    margin-bottom: 1rem;
 }
 
 .contact__card-data{
@@ -108,6 +109,19 @@
 .contact__form-area textarea{
     resize: none;
 }
+
+.contact__note{
+    margin-top: 1rem;
+}
+
+.contact__note__complete{
+    color: #3baf1a;
+}
+
+contact__note__error{
+    color: #b11c1c;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

@@ -60,7 +60,7 @@ const Data = () => {
             <br/>
             Consultant
             <br/>
-            Automation First Mind-set Developer
+            Automation First Mindset Developer
             <br/>
         </p>
         <a href="#contact" className="button button--flex">
