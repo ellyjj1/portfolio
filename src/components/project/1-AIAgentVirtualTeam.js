@@ -50,6 +50,18 @@ function AIAgentVirtualTeam(props) {
                                 <i className="uil uil-check-circle projects__modal-icon"></i>
                                 <p className="projects__modal-info">Tech Stack: Claude Code | Prompt Orchestration | React + TypeScript | Tailwind | Vite</p>
                             </li>
+
+                            <li className="projects__modal-project">
+                                <i className="uil uil-check-circle projects__modal-icon"></i>
+                                <p className="projects__modal-info">
+                                GitHub link: <> </>
+                                <a href="https://github.com/ellyjj1/AI-Agent-Teams" target="_blank"
+                                   rel="noopener noreferrer">
+                                    AI Agent Teams
+                                </a>
+                            </p>
+                            </li>
+
                         </ul>
                     </div>
 

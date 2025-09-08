@@ -16,7 +16,7 @@ const About = () => {
             <div className='about__data'>
                 <Info />
                 <p className="about__description">
-                    In addition, I am a 10-year choir leader, 300-dive scuba diver, shark chaser, and Animal lover
+                    In addition, I am a 10-year choir leader, 300-dive scuba diver and shark chaser
                 </p>
 
                 <a download="" href={CV} className="button button--flex">

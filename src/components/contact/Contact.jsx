@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your Requirement</h3>
+                    <h3 className="contact__title">Write me your requirement</h3>
 
                     <form ref={form} onSubmit={sendEmail} action="" className="contact__form">
                         <div className="contact__form-div">
@@ -98,11 +98,11 @@ const Contact = () => {
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project or Requests</label>
+                            <label className="contact__form-tag">Project or requirement</label>
                             <textarea name="project"
                                       cols="30"
                                       rows="10"
-                                      placeholder="Write your projects and Requests"
+                                      placeholder="Write your projects and reqirements"
                                       className="contact__form-input">
 
                          </textarea>

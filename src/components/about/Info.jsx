@@ -7,7 +7,7 @@ const Info = () => {
         <div className="about__box">
         <i class='bx bx-code-alt'></i>
             <h3 className="about__title">Web Developer</h3>
-            <span className="about__subtitle">1 Year</span>
+            <span className="about__subtitle">2 Year</span>
         </div>
 
         <div className="about__box">
@@ -19,7 +19,7 @@ const Info = () => {
         <div className="about__box">
         <i class='bx bx-chat' ></i>
             <h3 className="about__title">Software Consultant</h3>
-            <span className="about__subtitle">10+ Years</span>
+            <span className="about__subtitle">10 Years</span>
         </div>
 
     </div>
