@@ -19,13 +19,13 @@ const Info = () => {
         <div className="about__box">
             <i class='bx bx-microphone'></i>
             <h3 className="about__title">Church Singer</h3>
-            <span className="about__subtitle">Hits A4 every Sunday... allegedly</span>
+            <span className="about__subtitle">Hits A4 only... allegedly</span>
         </div>
 
         <div className="about__box">
             <i class='bx bx-water'></i>
             <h3 className="about__title">Shark Chaser</h3>
-            <span className="about__subtitle">300 dives, 0 eaten — still going</span>
+            <span className="about__subtitle">300 dives, 0 eaten</span>
         </div>
 
         <div className="about__box">
