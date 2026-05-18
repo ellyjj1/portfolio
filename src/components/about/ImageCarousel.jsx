@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react'
 import Img1 from '../../asserts/Jingjing1.jpg'
 import Img2 from '../../asserts/Jingjing2.jpg'
 import Img3 from '../../asserts/Jingjing3.jpg'
+import Img4 from '../../asserts/Jingjing4.JPEG'
+import Img5 from '../../asserts/Jingjing5.JPEG'
 
-const images = [Img1, Img2, Img3]
+
+const images = [Img1, Img2, Img3, Img4, Img5]
 
 const ImageCarousel = () => {
   const [current, setCurrent] = useState(0)
