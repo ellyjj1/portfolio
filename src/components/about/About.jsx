@@ -1,8 +1,9 @@
 import React from 'react'
 import './about.css'
-import CV from '../../asserts/JJ-Cv.pdf'
 import Info from './Info'
 import ImageCarousel from './ImageCarousel'
+
+// import CV from '../../asserts/JJ-Cv.pdf'
 
 const About = () => {
   return (
