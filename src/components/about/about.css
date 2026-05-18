@@ -25,7 +25,7 @@
 }
 
 .about__info{
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: repeat(2, 250px);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 }
@@ -61,6 +61,80 @@
     text-align:justify;
 }
 
+/*=============== CAROUSEL ===============*/
+.carousel {
+    position: relative;
+    width: 350px;
+    justify-self: center;
+}
+
+.carousel__track-wrapper {
+    overflow: hidden;
+    border-radius: .5rem;
+}
+
+.carousel__track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel__img {
+    width: 350px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: .5rem;
+    display: block;
+}
+
+.carousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.carousel__btn:hover {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.carousel__btn--prev { left: -1rem; }
+.carousel__btn--next { right: -1rem; }
+
+.carousel__dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+}
+
+.carousel__dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    background: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.2s;
+}
+
+.carousel__dot--active {
+    background: var(--title-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -71,7 +145,15 @@
 
     .about__img{
         width: 220px;
-    }   
+    }
+
+    .carousel {
+        width: 220px;
+    }
+
+    .carousel__img {
+        width: 220px;
+    }
 
     .about__box{
         padding: 0.75rem 0.5rem;

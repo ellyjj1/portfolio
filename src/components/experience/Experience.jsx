@@ -13,7 +13,27 @@ const Experience = () => {
                 <div className="experience__content">
                         <div className='experience__header'>
                             <i className="uil uil-code-branch experience__icon"></i>
-                            <h3 className="experience__title">Freelance Web Developer</h3>
+                            <h3 className="experience__title">Machine Learning Research Engineer</h3>
+                        </div>
+                        <div className="experience__modal-content">
+                            <p className="experience__modal-time">November 2025 - March 2026 (Project based)</p>
+                            <ul className="experience__modal-experience grid">
+                                <li className="experience__modal-project">
+                                    <i className="uil uil-check-circle experience__modal-icon"></i>
+                                    <p className="experience__modal-info">Architected and deployed PeptiRank and FastMD, end-to-end ML pipelines predicting peptide-receptor binding affinity and molecular dynamics energies, training MLP and CNN models on 200,000+ molecular samples to accelerate agricultural peptide discovery.</p>
+                                </li>
+                                <li className="experience__modal-project">
+                                    <i className="uil uil-check-circle experience__modal-icon"></i>
+                                    <p className="experience__modal-info">Discovered novel Lipinski-like filtering rules for plant peptide screening, enabling rapid pre-filtering and ranking of candidate libraries before expensive molecular dynamics simulations.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                <div className="experience__content">
+                        <div className='experience__header'>
+                            <i className="uil uil-code-branch experience__icon"></i>
+                            <h3 className="experience__title">Freelance AI Engineer</h3>
                         </div>
                         <div className="experience__modal-content">
                             <p className="experience__modal-time">December 2023 - Now</p>
@@ -34,22 +54,14 @@ const Experience = () => {
                                     <i className="uil uil-check-circle experience__modal-icon"></i>
                                     <p className="experience__modal-info">Enabled clients to secure investment and expand operations by providing end-to-end project delivery and long-term technical support.</p>
                                 </li>
-
-                                {/*<li className="experience__modal-project">*/}
-                                {/*    <i className="uil uil-check-circle experience__modal-icon"></i>*/}
-                                {/*    <p className="experience__modal-info">Contious deplopy the project on Vercel or AWS with Docker*/}
-                                {/*    </p>*/}
-                                {/*</li>*/}
-
                             </ul>
                         </div>
-
-                        {/* </div> */}
                     </div>
+
                     <div className="experience__content">
                         <div className='experience__header'>
                             <i class="uil uil-chart-pie-alt experience__icon"></i>
-                            <h3 className="experience__title">Business Analyst</h3>
+                            <h3 className="experience__title">Data Analyst</h3>
                         </div>
                         <div className="experience__modal-content">
                             <p className="experience__modal-time">Brunton NZ Ltd, September 2024 - April 2025</p>
@@ -68,10 +80,7 @@ const Experience = () => {
                             </ul>
                         </div>
 
-                        {/* </div> */}
                     </div>
-
-
 
                     <div className="experience__content">
                         <div className='experience__header'>
@@ -99,16 +108,14 @@ const Experience = () => {
                                     <i className="uil uil-check-circle experience__modal-icon"></i>
                                     <p className="experience__modal-info">Led a team of 3 PMs and coordinated matrix resources via daily stand-ups, clearing bottlenecks and aligning stakeholders, suppliers, and developers.</p>
                                 </li>
-
-
                             </ul>
                         </div>
                     </div>
 
-                    <div className="experience__content">
+                    {/* <div className="experience__content">
                         <div className='experience__header'>
                             <i className="uil uil-presentation-check experience__icon"></i>
-                            <h3 className="experience__title">Pre-sales Consultant Manager</h3>
+                            <h3 className="experience__title">Consultant Manager</h3>
                         </div>
                         <div className="experience__modal-content">
                             <p className="experience__modal-time">BEIJING NATIONSKY NETWORK TECHNOLOGY, May 2016-January
@@ -132,9 +139,9 @@ const Experience = () => {
 
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="experience__content">
+                    {/* <div className="experience__content">
                         <div className='experience__header'>
                             <i className="uil uil-comment-alt-chart-lines experience__icon"></i>
                             <h3 className="experience__title">Pre-sales Consultant</h3>
@@ -180,7 +187,7 @@ const Experience = () => {
 
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
 
 
                 </div>

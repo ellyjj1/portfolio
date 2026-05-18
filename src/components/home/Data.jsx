@@ -56,11 +56,11 @@ const Data = () => {
         </h1>
         <h3 className="home__subtitle">Make Ideas Come True</h3>
         <p className="home__description">
-            Project Manager
-            <br/>
-            Consultant
+            AI and Data Engineer
             <br/>
             Automation First Mindset Developer
+            <br/>
+            Consultant
             <br/>
         </p>
         <a href="#contact" className="button button--flex">

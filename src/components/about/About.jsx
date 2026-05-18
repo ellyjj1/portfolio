@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../asserts/Jingjing2.jpg'
 import CV from '../../asserts/JJ-Cv.pdf'
 import Info from './Info'
+import ImageCarousel from './ImageCarousel'
 
 const About = () => {
   return (
@@ -11,15 +11,15 @@ const About = () => {
         <span className="section_subtitle">My introduction</span>
 
         <div className="about__container container grid">
-            <img src={AboutImg} alt="Profile" className="about__img" />
+            <ImageCarousel />
             
             <div className='about__data'>
                 <Info />
-                <p className="about__description">
+                {/* <p className="about__description">
                     In addition, I am a 10-year choir leader, 300-dive scuba diver and shark chaser
-                </p>
+                </p> */}
 
-                <a download="" href={CV} className="button button--flex">
+                {/* <a download="" href={CV} className="button button--flex">
                     Download CV
                     <svg
                 class="button__icon"
@@ -46,7 +46,7 @@ const About = () => {
                   fill="var(--container-color)"
                 ></path>
                     </svg>
-                </a>
+                </a> */}
             </div>
         </div>
     </section>
