@@ -43,11 +43,8 @@ const Contact = () => {
                     <div className="contact__info">
                         <div className="contact__card">
                             <i className='bx bx-mail-send contact__card-icon'></i>
-
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">ellyjj1@hotmail.com</span>
-
-                            <a href="mailto:ellyjj1@hotmail.com" className="contact__button">Write me{" "}
+                            <a href="mailto:ellyjj1@hotmail.com" className="contact__button">ellyjj1@hotmail.com{" "}
                                 <i className='bx bx-right-arrow-alt contact__button-icon'></i>
                             </a>
                         </div>
@@ -55,25 +52,9 @@ const Contact = () => {
                         <div className="contact__card">
                             <a href='https://primary-production-e6ad.up.railway.app/webhook/5aa95500-d5b6-472f-912b-70ab3238f602/chat' target="_blank" rel="noopener noreferrer">
                             <i className='uil uil-comment contact__card-icon'></i>
-
                             <h3 className="contact__card-title">AI Support</h3>
                             </a>
-                        </div>
-
-                        {/*<div className="contact__card">*/}
-                        {/*    <i className='bx bxl-whatsapp contact__card-icon'></i>*/}
-
-                        {/*    <h3 className="contact__card-title">Whatsapp</h3>*/}
-                        {/*    <span className="contact__card-data">+64 20 4242 385</span>*/}
-
-                        {/*    <a href="https://api.whatsapp.com/send?phone=+64204242385" className="contact__button">Write*/}
-                        {/*        me*/}
-                        {/*        <i className='bx bx-right-arrow-alt contact__button-icon'></i>*/}
-                        {/*    </a>*/}
-                        {/*</div>*/}
-
-                        
-
+                        </div>                       
                     </div>
                 </div>
 
