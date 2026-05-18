@@ -17,7 +17,7 @@ const Project = () => {
     return (
         <section className="projects section" id="projects">
             <h2 className="section__title">Projects</h2>
-            <span className="section__subtitle">Most recent programming work</span>
+            <span className="section__subtitle">Real problems, real solutions</span>
             <div className="projects__container container grid">
                 <AIBasedAutomation />
                 <FineTunedEvaluation />

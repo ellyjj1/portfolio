@@ -54,14 +54,13 @@ const Data = () => {
                     ></path>
             </svg>
         </h1>
-        <h3 className="home__subtitle">Make Ideas Come True</h3>
+        <h3 className="home__subtitle">Turning Ideas into Reality</h3>
         <p className="home__description">
-            AI and Data Engineer
+            AI & Data Engineer
             <br/>
-            Automation First Mindset Developer
+            Full-Stack Developer
             <br/>
-            Consultant
-            <br/>
+            Automation Enthusiast
         </p>
         <a href="#contact" className="button button--flex">
             Say Hello 
